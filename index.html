@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add sentence</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="shadow">
+      <div class="container">
+        <div class="titleAndInput">
+          <div class="title">
+            <h1>My to do list</h1>
+          </div>
+          <input type="text" size="50" placeholder="Wash my dog..." />
+          <button class="addButton" id="addButton" onclick="addElement()">
+            Add to list
+          </button>
+          <!-- <button
+          class="deleteButton"
+          id="deleteButton"
+          onclick="deleteElement()"
+        >
+          Delete from list
+        </button> -->
+        </div>
+        <div class="list"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
